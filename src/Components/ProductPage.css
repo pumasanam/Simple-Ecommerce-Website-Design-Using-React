@@ -1,0 +1,97 @@
+.productpage{
+    width: 100%;
+    margin-top: 80px;
+    padding:3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productpage .productpage_img{
+    width: 45%;
+}
+
+.productpage .productpage_img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.productpage_list{
+    width: 50%;
+}
+
+.productpage_img .productpage_imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.productpage_img .productpage_imgs .innerproduct_img{
+    width: 24%;
+}
+
+.productpage_img .productpage_imgs .innerproduct_img img{
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.productpage_list{
+    padding: 2rem 0px;
+}
+
+.productpage_list h2{
+    margin: 10px 0px;
+}
+
+.productpage_list input{
+    margin: 10px 0px;
+}
+
+.productpage_list .productnumber{
+    width: 60px;
+    padding: 0.6rem 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.productpage_list button{
+    background-color: darkgreen;
+    outline: none;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productpage_list .totalInput{
+    outline: none;
+    width: 180px;
+    padding: 0.6rem 5px;
+}
+
+.productpage_list .buyNow{
+    background-color: red!important;
+}
+
+.productpage_list h4{
+    margin: 20px 0px 5px 0px;
+}
+
+@media screen and (max-width:640px){
+    .productpage{
+        flex-direction: column;
+    }
+
+    .productpage_list{
+        width: 100%;
+    }
+
+    .productpage .productpage_img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.feature{
+    width: 100%;
+    padding: 3rem 2rem;
+}
+
+.feature_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature_list .inner_Feature{
+    width: 165px;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    text-align: center;
+}
+
+.feature_list .inner_Feature img{
+    width: 100%;
+}
+
+.inner_Feature h5{
+    background-color: red;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 7px;
+}
+
+@media screen and (max-width:400px){
+    .feature_list .inner_Feature{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:810px){
+    .feature_list .inner_Feature{
+        margin: 15px 0px;
+    }
+}
+
